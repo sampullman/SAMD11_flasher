@@ -1,0 +1,29 @@
+# export files for BOM
+*.csv
+*.tsv
+*.xml
+
+# Backups and temporary files
+*.bak
+*.bck
+*.kicad_pcb-bak
+*-cache.lib
+*.000
+*~
+_autosave-*
+*.tmp
+ftp-lib-table
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Mac and Windows folder settings
+.DS_Store
+desktop.ini
+
+#GERBER
+GERBER/*

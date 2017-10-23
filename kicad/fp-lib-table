@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Local)(type Github)(uri https://github.com/etherkit/EtherkitKicadLibrary)(options "")(descr ""))
+)
