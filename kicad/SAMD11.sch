@@ -1,12 +1,8 @@
 EESchema Schematic File Version 3
 LIBS:power
 LIBS:device
-LIBS:transistors
-LIBS:conn
 LIBS:linear
 LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
@@ -21,19 +17,11 @@ LIBS:audio
 LIBS:interface
 LIBS:digital-audio
 LIBS:philips
-LIBS:display
 LIBS:cypress
 LIBS:siliconi
 LIBS:opto
 LIBS:atmel
 LIBS:contrib
-LIBS:valves
-LIBS:ATSAMD11D14A-MNT
-LIBS:pam2312
-LIBS:SWD_2x5
-LIBS:PRTR5V0U4D
-LIBS:mechanical
-LIBS:switches
 LIBS:SAMD11-cache
 EELAYER 26 0
 EELAYER END
@@ -187,9 +175,7 @@ $EndComp
 Wire Wire Line
 	1600 6450 1600 6650
 Wire Wire Line
-	1900 6150 2300 6150
-Wire Wire Line
-	2300 6150 2550 6150
+	1900 6150 2550 6150
 Connection ~ 2300 6150
 $Comp
 L GND #PWR011
@@ -238,23 +224,17 @@ F 3 "" H 5500 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4100 3450 5400 3450
-Wire Wire Line
-	5400 3450 5750 3450
+	4100 3450 5750 3450
 Wire Wire Line
 	5400 3450 5400 2900
 Wire Wire Line
-	4100 3600 5600 3600
-Wire Wire Line
-	5600 3600 5750 3600
+	4100 3600 5750 3600
 Wire Wire Line
 	5600 3600 5600 2900
 Wire Wire Line
 	5400 2600 5400 2550
 Wire Wire Line
-	5400 2550 5500 2550
-Wire Wire Line
-	5500 2550 5600 2550
+	5400 2550 5600 2550
 Wire Wire Line
 	5600 2550 5600 2600
 Wire Wire Line
@@ -287,9 +267,7 @@ F 3 "" H 1550 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 1500 1450 1600
-Wire Wire Line
-	1450 1600 1450 1650
+	1450 1500 1450 1650
 Wire Wire Line
 	1450 1650 1550 1650
 Wire Wire Line
@@ -323,11 +301,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 1550 5150 1550
 Wire Wire Line
-	5250 900  5250 1100
-Wire Wire Line
-	5250 1100 5250 1400
-Wire Wire Line
-	5250 1400 5250 1550
+	5250 900  5250 1550
 Wire Wire Line
 	5150 1400 5250 1400
 Connection ~ 5250 1400
@@ -399,9 +373,7 @@ $EndComp
 Wire Wire Line
 	2700 2250 2700 2650
 Wire Wire Line
-	2100 2250 2300 2250
-Wire Wire Line
-	2300 2250 2700 2250
+	2100 2250 2700 2250
 Connection ~ 2300 2250
 $Comp
 L +3V3 #PWR02
@@ -453,9 +425,7 @@ $EndComp
 Wire Wire Line
 	9400 750  10100 750 
 Wire Wire Line
-	7550 750  7950 750 
-Wire Wire Line
-	7950 750  9100 750 
+	7550 750  9100 750 
 NoConn ~ 4000 1250
 NoConn ~ 4000 1400
 Wire Wire Line
@@ -465,25 +435,17 @@ Wire Wire Line
 Wire Wire Line
 	2050 1800 2050 1100
 Wire Wire Line
-	1850 1100 2050 1100
-Wire Wire Line
-	2050 1100 2350 1100
+	1850 1100 2350 1100
 Wire Wire Line
 	3150 1850 3150 1700
 Wire Wire Line
-	3150 1700 2150 1700
+	2150 1700 3150 1700
 Wire Wire Line
-	2150 1700 2150 1250
-Wire Wire Line
-	2150 1250 2150 1200
+	2150 1200 2150 1700
 Wire Wire Line
 	2150 1200 1850 1200
 Wire Wire Line
-	1850 900  2050 900 
-Wire Wire Line
-	2050 900  2400 900 
-Wire Wire Line
-	2400 900  3050 900 
+	1850 900  3050 900 
 Wire Wire Line
 	2050 900  2050 800 
 $Comp
@@ -608,15 +570,9 @@ $EndComp
 Wire Wire Line
 	7950 750  7950 1550
 Wire Wire Line
-	7950 1550 8050 1550
+	7950 1550 9250 1550
 Wire Wire Line
-	8050 1550 8500 1550
-Wire Wire Line
-	8500 1550 9250 1550
-Wire Wire Line
-	8500 1450 8500 1550
-Wire Wire Line
-	8500 1550 8500 1700
+	8500 1450 8500 1700
 Connection ~ 7950 750 
 Connection ~ 8500 1550
 $Comp
@@ -1044,9 +1000,7 @@ F 3 "" H 5200 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1000 6150 1150 6150
-Wire Wire Line
-	1150 6150 1300 6150
+	1000 6150 1300 6150
 Wire Wire Line
 	1150 6150 1150 6050
 Connection ~ 1150 6150
@@ -1300,13 +1254,9 @@ F 3 "" H 7900 3450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7100 3250 7450 3250
+	7100 3250 7700 3250
 Wire Wire Line
-	7450 3250 7700 3250
-Wire Wire Line
-	7450 3150 7450 3250
-Wire Wire Line
-	7450 3250 7450 3350
+	7450 3150 7450 3350
 Connection ~ 7450 3250
 Wire Wire Line
 	7450 3650 7450 3750
@@ -1333,11 +1283,7 @@ F 3 "" H 10950 2650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	10950 2650 10950 2800
-Wire Wire Line
-	10950 2800 10950 3100
-Wire Wire Line
-	10950 3100 10950 3250
+	10950 2650 10950 3250
 Wire Wire Line
 	10950 3250 10800 3250
 Wire Wire Line
